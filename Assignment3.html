@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <p>Display The Date:</p>
+    <p id="A">
+        Display The Date:
+    </p>
+    <script>
+        var today = new Date();
+
+        /*var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();*/
+    
+        var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+
+        document.getElementById("A").innerHTML=date;
+    </script>
+</body>
+</html>
